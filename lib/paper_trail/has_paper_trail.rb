@@ -23,7 +23,7 @@ module PaperTrail
       # Options:
       #
       # - :on - The events to track (optional; defaults to all of them). Set
-      #   to an array of `:create`, `:update`, `:destroy` and `:touch` as desired.
+      #   to an array of `:create`, `:update`, `:destroy` as desired.
       # - :class_name (deprecated) - The name of a custom Version class that
       #   includes `PaperTrail::VersionConcern`.
       # - :ignore - An array of attributes for which a new `Version` will not be
